@@ -347,8 +347,7 @@ The saved model is a `KNeighborsClassifier` trained with scikit-learn's defaults
 - The dataset's sex distribution is imbalanced (~79% male, inherited from the original clinical sources) — worth considering when assessing how well the model might generalize.
 - `DecisionTreeClassifier` was trained without a `random_state`, so its 0.777 accuracy may shift slightly between reruns of the notebook.
 
-## License
-No license file is currently included in this repository, so default copyright applies (all rights reserved). If you'd like others to reuse or build on this work, consider adding an open-source license such as [MIT](https://choosealicense.com/licenses/mit/).
+## License [MIT](https://choosealicense.com/licenses/mit/).
 
 ## Acknowledgments
 - Dataset: **Heart Failure Prediction Dataset**, combining the Cleveland, Hungarian, Switzerland, Long Beach VA, and Statlog Heart datasets, originally hosted at the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/) and distributed via [Kaggle](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction).
